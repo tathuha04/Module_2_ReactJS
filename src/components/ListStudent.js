@@ -1,8 +1,8 @@
-import React,{Component} from "react";
-class ListStudent extends Component{
-    render(){
-        return(
-            <div class="card-body">
+import React from 'react'
+
+function ListStudent() {
+        return (
+          <div class="card-body">
                 <h3 class="card-title">Danh sách sinh viên</h3>
                 <div class="table-responsive pt-3">
                     <table class="table table-bordered">
@@ -110,5 +110,4 @@ class ListStudent extends Component{
             </div>
         )
     }
-}
 export default ListStudent;
